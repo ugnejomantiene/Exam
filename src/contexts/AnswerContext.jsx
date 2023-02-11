@@ -21,7 +21,6 @@ const AnswerProvider = ({ children }) => {
 
   if (loading) {
     return <div className="loading">
-      <p>Wait wait wait...</p>
       <img src={Monkey} alt="loading" />
     </div>
   }

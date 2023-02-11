@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { useContext } from "react";
 import { Link } from 'react-router-dom';
 import UserContext from "../../contexts/UserContext";
 import PostContext from "../../contexts/PostContext";
 import AnswerContext from "../../contexts/AnswerContext";
 
 const Post = ({ data, postContent }) => {
-  const { users, loggedInUser } = React.useContext(UserContext);
-  const { deletePost, likePost, dislikePost } = React.useContext(PostContext);
-  const { answers } = React.useContext(AnswerContext);
+  const { users, loggedInUser } = useContext(UserContext);
+  const { deletePost, likePost, dislikePost } = useContext(PostContext);
+  const { answers } = useContext(AnswerContext);
   const postOwner = users.find(user => user.id === data.userId);
   const postAnswers = answers.filter(answer => answer.postId === data.id);
   const hasAnswer = postAnswers.length > 0;
@@ -36,7 +36,7 @@ const Post = ({ data, postContent }) => {
           )}
         </div>
         <div className="post-title">
-          <h2>{data.heading}</h2>
+          <h2>{data.heading}</h2>{data.edited && <p>Edited</p>}
         </div>
         <div className="post-content">{data.content}</div>
         <div className="post-time">

@@ -8,7 +8,10 @@
     align-items: center;
     justify-content: space-around;
     color: black;
-    background-color: rgb(212, 241, 241);
+    background-color: rgb(110, 133, 177);
+}
+.UserInfo a {
+    color: rgb(255, 255, 255);
 }
 
 
@@ -36,10 +39,15 @@
 
 .logo {
     height: 100%;
+    padding: 10px;
 
 }
 .logo p {
     font-size: 50px;
     margin: 0;
-    border-bottom: 11px double rgba(28,110,164,0.63);
+    color: aliceblue;
+    border-bottom: 11px double rgba(212, 224, 232, 0.63);
+    color: #FFFFFF;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
 }
+

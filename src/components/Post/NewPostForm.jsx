@@ -39,14 +39,14 @@ const NewPostForm = () => {
         <form onSubmit={handleSubmit}>
           <label>
             Heading:
-            <input type="text" name="heading"
+            <input type="text" name="heading" required
               value={formInputs.heading}
               onChange={(e) => setFormInputs({ ...formInputs, heading: e.target.value })}
             />
           </label>
           <label>
             Content:
-            <input type="text" name="content"
+            <input type="text" name="content" required
               value={formInputs.content}
               onChange={(e) => setFormInputs({ ...formInputs, content: e.target.value })}
             />

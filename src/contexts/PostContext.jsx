@@ -73,20 +73,20 @@ const PostProvider = ({ children }) => {
 
   const dislikePost = async (id) => {
     const post = posts.find(post => post.id === id);
-    const updatedPost = { ...post, dislikes: post.dislikes - 1 };
+    const updatedPost = { ...post, dislikes: post.dislikes + 1 };
     await fetch(`http://localhost:5000/posts/${id}`, {
       method: 'PATCH',
       body: JSON.stringify(updatedPost),
       headers: { 'Content-Type': 'application/json' }
     });
-    setPosts(posts.map(post => post.id === id ? { ...post, dislikes: post.dislikes - 1 } : post));
+    setPosts(posts.map(post => post.id === id ? { ...post, dislikes: post.dislikes + 1 } : post));
   }
 
   return (
     <PostContext.Provider
       value={{
         posts:
-        filteredPosts,
+          filteredPosts,
         addNewPost,
         deletePost,
         updatePost,

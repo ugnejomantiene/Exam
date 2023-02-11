@@ -1,6 +1,8 @@
+import React, { useContext } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import { Formik, Form, Field } from 'formik';
+import * as Yup from 'yup';
 import AnswerContext from "../../contexts/AnswerContext";
-import { useContext, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
 
 const EditAnswerForm = () => {
 
@@ -12,31 +14,37 @@ const EditAnswerForm = () => {
 
   const navigation = useNavigate();
 
-  const [formInputs, setFormInputs] = useState({
-    content: currentAnswer.content
+  const validationSchema = Yup.object().shape({
+    content: Yup.string().required('Content is required').min(3, 'Content must be at least 3 characters'),
   });
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    updateAnswer(id, formInputs);
-
-    navigation('/');
-
+  const handleSubmit = (values) => {
+    updateAnswer(id, values);
+    navigation('/posts/' + currentAnswer.postId);
   }
 
   return (
     <>
       <div className="FormAnswer">
-        <form onSubmit={handleSubmit}>
-          <label>
-            Content:
-            <input type="text" name="content"
-              value={formInputs.content}
-              onChange={(e) => setFormInputs({ ...formInputs, content: e.target.value })}
-            />
-          </label>
-          <input type="submit" value="Edit Answer" />
-        </form>
+        <Formik
+          initialValues={{
+            content: currentAnswer.content,
+            edited: true
+          }}
+          validationSchema={validationSchema}
+          onSubmit={handleSubmit}
+        >
+          {({ errors, touched }) => (
+            <Form>
+              <label>
+                Content:
+                <Field name="content" type="text" />
+                {errors.content && touched.content ? <div>{errors.content}</div> : null}
+              </label>
+              <input type="submit" value="Edit Answer" />
+            </Form>
+          )}
+        </Formik>
       </div>
     </>
   );

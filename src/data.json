@@ -36,8 +36,8 @@
       "content": "Labas",
       "id": "UIWRvxW-p-g3lRUA3YkK-",
       "userId": 2,
-      "likes": 1,
-      "dislikes": -2,
+      "likes": 15,
+      "dislikes": 21,
       "Time": "2/8/2023, 9:27:40 AM",
       "edited": false
     },
@@ -46,8 +46,8 @@
       "content": "Zen technika.",
       "id": "VBd9QbqAWWTO2pJkS0kr9",
       "userId": 1,
-      "likes": 0,
-      "dislikes": 0,
+      "likes": 4,
+      "dislikes": 3,
       "Time": "2/8/2023, 9:28:07 AM",
       "edited": false
     },
@@ -56,8 +56,8 @@
       "content": "Nft news",
       "id": "F6VsfwxHQqtwZnnPBjEu4",
       "userId": 1675776502889,
-      "likes": 1,
-      "dislikes": 0,
+      "likes": 4,
+      "dislikes": 5,
       "Time": "2/8/2023, 9:30:38 AM",
       "edited": false
     },
@@ -67,7 +67,7 @@
       "id": "OF_1H_2JQu9WaT8Gu73D3",
       "userId": 1675929861363,
       "likes": 0,
-      "dislikes": 0,
+      "dislikes": 3,
       "Time": "2/9/2023, 2:25:47 PM",
       "edited": false
     },
@@ -77,8 +77,18 @@
       "id": "FsCa-9Ok7ibKjt4pgnZig",
       "userId": 1675929861363,
       "likes": 0,
-      "dislikes": 0,
+      "dislikes": 3,
       "Time": "2/10/2023, 2:11:22 PM",
+      "edited": false
+    },
+    {
+      "heading": "Sveiki",
+      "content": "Tekstas tekstas",
+      "id": "txmzBZWVBga_ZzGn5PCX5",
+      "userId": 1675929861363,
+      "likes": 3,
+      "dislikes": 1,
+      "Time": "2/11/2023, 11:35:57 AM",
       "edited": false
     }
   ],
@@ -101,8 +111,8 @@
       "id": "vHls5f7FIvcIxGZoL9MRR",
       "edited": false,
       "Time": "2/8/2023, 9:29:20 AM",
-      "likes": 0,
-      "dislikes": 0
+      "likes": 3,
+      "dislikes": -5
     },
     {
       "postId": "F6VsfwxHQqtwZnnPBjEu4",
@@ -151,6 +161,16 @@
       "id": "IFTUFGWMGPX4e3IJDFcqp",
       "edited": false,
       "Time": "2/10/2023, 2:11:39 PM",
+      "likes": 0,
+      "dislikes": 0
+    },
+    {
+      "postId": "F6VsfwxHQqtwZnnPBjEu4",
+      "userId": 1675929861363,
+      "content": "1",
+      "id": "FRQIrVPo3IBgCfTC3hx_V",
+      "edited": false,
+      "Time": "2/11/2023, 11:40:13 AM",
       "likes": 0,
       "dislikes": 0
     }

@@ -18,7 +18,8 @@ const Footer = () => {
           </div>
           <div className="footer_about">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aspernatur a obcaecati minus, ad magnam saepe quos voluptatibus id neque magni blanditiis nostrum pariatur consequatur aperiam. 
+            “Be yourself; everyone else is already taken.”
+― Oscar Wilde
             </p>
           </div>
         </div>

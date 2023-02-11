@@ -41,7 +41,7 @@ const Answers = () => {
           postAnswers.map(answer => {
             const answerOwner = users.find(user => user.id === answer.userId);
             return (
-              <div className="Post">
+              <div className="Post" key={answer.id}>
                 <img src={answerOwner.avatar} alt="user avatar" />
                 <div className="name">
                   <span>{answerOwner.name}</span>
@@ -78,7 +78,7 @@ const Answers = () => {
         }
       </div>
       <form className="post-answer-form" onSubmit={handleSubmit}>
-        <input type="text" placeholder="Your answer" />
+        <input type="text" placeholder="Your answer" required />
         <button type="submit">Submit</button>
       </form>
     </>
