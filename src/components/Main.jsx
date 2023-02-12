@@ -3,7 +3,7 @@ import Posts from "./Post/Posts";
 const Main = () => {
   return (
     <>
-      <h1>Pokalbis</h1>
+      <h1>Talks... </h1>
       <Posts />
     </>
   );

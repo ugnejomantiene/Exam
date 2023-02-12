@@ -34,11 +34,7 @@ const Posts = () => {
             <option value="answered">Answered</option>
             <option value="unanswered">Unanswered</option>
           </select>
-          <label htmlFor="post-sort">Sort:</label>
-          <select id="post-sort" value={postSort} onChange={handleSortChange}>
-            <option value="asc">From the most popular</option>
-            <option value="desc">From the least popular</option>
-          </select>
+          
         </div>
         {sortedPosts.map(post => (
           <Post key={post.id} data={post} postContent={postContent} />
