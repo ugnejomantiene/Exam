@@ -1,0 +1,301 @@
+/* Post  */
+
+.post-item {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post-header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-header-left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-header-right {
+    display: flex;
+  }
+  
+  .post-header-right button {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #000;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .post-title {
+    padding: 10px;
+  }
+  
+  .post-title h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .post-content {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .post-time {
+    padding: 10px;
+    font-size: 14px;
+    text-align: right;
+    color: #aaa;
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .post-footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-footer-left i {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .post-like, .post-dislike {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .post-footer-right {
+    font-size: 14px;
+    color: #000;
+    text-align: right;
+  }
+
+/* Posts  */
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: 30px 0;
+  }
+  
+  label[for="post-filter"],
+  label[for="post-sort"] {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+
+/* Adding form  */
+
+.FormAddPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /* Answers  */
+
+  .post-answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0;
+    row-gap: 20px;
+  }
+  
+  .Post {
+    width: 25%;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ddd;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .Post img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buttons i {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .content {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  
+  .Time {
+    font-size: 14px;
+    color: gray;
+    margin-top: 20px;
+  }
+  
+  .Likes , .Dislike{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .Likes i, .Dislike i {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+
+  .post-answer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 0 auto;
+   
+  }
+  
+  
+
+
+  /* Edit answer form  */
+
+  .FormAnswer {
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+
+
+  /* Edit post form  */
+  .FormPost {
+    margin: 50px auto;
+    width: 30%;
+  }
+
+  
+  
+  
