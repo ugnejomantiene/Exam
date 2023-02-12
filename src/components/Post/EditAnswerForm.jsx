@@ -35,7 +35,7 @@ const EditAnswerForm = () => {
           onSubmit={handleSubmit}
         >
           {({ errors, touched }) => (
-            <Form>
+            <Form className="editAnswerForm">
               <label>
                 Content:
                 <Field name="content" type="text" />

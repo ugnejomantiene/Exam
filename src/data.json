@@ -36,8 +36,8 @@
       "content": "Labas",
       "id": "UIWRvxW-p-g3lRUA3YkK-",
       "userId": 2,
-      "likes": 15,
-      "dislikes": 21,
+      "likes": 19,
+      "dislikes": 29,
       "Time": "2/8/2023, 9:27:40 AM",
       "edited": false
     },
@@ -79,7 +79,7 @@
       "likes": 0,
       "dislikes": 3,
       "Time": "2/10/2023, 2:11:22 PM",
-      "edited": false
+      "edited": true
     },
     {
       "heading": "Sveiki",
@@ -87,7 +87,7 @@
       "id": "txmzBZWVBga_ZzGn5PCX5",
       "userId": 1675929861363,
       "likes": 3,
-      "dislikes": 1,
+      "dislikes": 5,
       "Time": "2/11/2023, 11:35:57 AM",
       "edited": false
     }
@@ -101,8 +101,8 @@
       "id": "AW42wTcPZ1ViHpx8YUois",
       "edited": false,
       "Time": "2/8/2023, 9:28:54 AM",
-      "likes": 0,
-      "dislikes": -1
+      "likes": 3,
+      "dislikes": -8
     },
     {
       "postId": "UIWRvxW-p-g3lRUA3YkK-",
@@ -111,8 +111,8 @@
       "id": "vHls5f7FIvcIxGZoL9MRR",
       "edited": false,
       "Time": "2/8/2023, 9:29:20 AM",
-      "likes": 3,
-      "dislikes": -5
+      "likes": 15,
+      "dislikes": -12
     },
     {
       "postId": "F6VsfwxHQqtwZnnPBjEu4",
@@ -137,22 +137,12 @@
     {
       "postId": "UIWRvxW-p-g3lRUA3YkK-",
       "userId": 1675929861363,
-      "content": "Ar tikrai?",
-      "id": "HIIbY0r9-T703SYtDfWYB",
-      "edited": false,
-      "Time": "2/9/2023, 7:51:24 PM",
-      "likes": 0,
-      "dislikes": 0
-    },
-    {
-      "postId": "UIWRvxW-p-g3lRUA3YkK-",
-      "userId": 1675929861363,
       "content": "Testuoju",
       "id": "a5-b0ePlPqgIw6MYhO8mq",
       "edited": false,
       "Time": "2/9/2023, 7:54:51 PM",
-      "likes": 0,
-      "dislikes": 0
+      "likes": 3,
+      "dislikes": -3
     },
     {
       "postId": "F6VsfwxHQqtwZnnPBjEu4",
@@ -171,6 +161,16 @@
       "id": "FRQIrVPo3IBgCfTC3hx_V",
       "edited": false,
       "Time": "2/11/2023, 11:40:13 AM",
+      "likes": 0,
+      "dislikes": 0
+    },
+    {
+      "postId": "UIWRvxW-p-g3lRUA3YkK-",
+      "userId": 1675929861363,
+      "content": "Mano atsakymas. Pataisytas/",
+      "id": "4i6VywpIdAIttBr4Chje-",
+      "edited": true,
+      "Time": "2/12/2023, 10:11:38 AM",
       "likes": 0,
       "dislikes": 0
     }

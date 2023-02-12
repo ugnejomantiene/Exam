@@ -232,6 +232,70 @@
     cursor: pointer;
     margin-right: 10px;
   }
+
+
+  .post-answer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 0 auto;
+   
+  }
+  
+  
+
+
+  /* Edit answer form  */
+
+  .FormAnswer {
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+
+
+  /* Edit post form  */
+  .FormPost {
+    margin: 50px auto;
+    width: 30%;
+  }
+
   
   
   

@@ -18,7 +18,7 @@ const UserInfo = () => {
     <>
       <div className="UserInfo">
         <div className="logo">
-          <p>Weee...</p>
+          <p>The last fight...</p>
         </div>
         <div className="userF">
             <Link to="/">HOME</Link>

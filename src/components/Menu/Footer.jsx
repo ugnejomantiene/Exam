@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div className="footer__copy">
                 <p>
-                  &copy; 2023 <a href="/">Egzaminas</a>. All rights reserved.
+                  &copy; 2023 <a href="/">The last fight</a>. All rights reserved.
                 </p>
               </div>
       </footer>
